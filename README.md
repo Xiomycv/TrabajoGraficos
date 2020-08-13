@@ -5,6 +5,7 @@ Análisis de datos referentes a web scrapping hecho en la página de [Yapo](http
 ## Variables que llaman la atención
 
 Se separaron 2 variables, las cuales llamaron mi atención.
+
 Estas variables son: *comunas* y *categorías* 
 
 ### Comunas 
