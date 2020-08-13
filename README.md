@@ -12,7 +12,7 @@ En la Región Metropolitana tenemos 32 comunas, las cuales se ven representadas 
 
 ![Comunas](https://raw.githubusercontent.com/Xiomycv/TrabajoGraficos/master/Gráfico_comunas.png)
 
-#########(Fuente: elaboración propia en RStudio)
+######### (Fuente: elaboración propia en RStudio)
 
 En este gráfico podemos observar que, la comuna en donde más se vende es la comuna de Santiago, siguiéndola la comuna de la Cisterna y Maipú.
 
@@ -47,7 +47,7 @@ En la página de Yapo podemos encontrar un total de 31 categorías de venta en l
 
 ![Categorias](https://raw.githubusercontent.com/Xiomycv/TrabajoGraficos/master/Gráfico_categorias.png)
 
-#########(Fuente: Elaboración propia en RStudio)
+######### (Fuente: Elaboración propia en RStudio)
 
 En este gráfico podemos observar que la categoría en la que más productos se venden es la de Accesorios y piezas para vehículos.
 
