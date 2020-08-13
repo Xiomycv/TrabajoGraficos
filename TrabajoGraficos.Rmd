@@ -1,0 +1,55 @@
+---
+title: "TrabajoGraficos"
+author: "Xiomara Cancino Vargas"
+date: "12/8/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r}
+install.packages("ggplot2")
+library("ggplot2")
+
+```
+
+## Including Plots
+
+
+```{r pressure, echo=FALSE}
+fullDatos
+```
+
+```{r}
+ggplot(fullDatos,aes(x=categoria))+
+  geom_bar(fill="#66c9ff", colour="black")+
+  scale_x_discrete(name = "Categorías")+
+  scale_y_continuous("Numero de ventas por categoria",lim = c(0,26))+
+  geom_text(stat = "count",hjust=0,vjust=0,position = position_dodge(0.9),aes(x=categoria,label=stat(count)))+
+  coord_flip()
+```
+
+```{r}
+ggplot(fullDatos,aes(x=comuna))+
+  geom_bar(fill = "#a862fc",colour="black")+
+  scale_x_discrete(name = "Comunas")+
+  scale_y_continuous("Numero de ventas por comuna")+
+  geom_text(stat = "count",hjust=0,vjust=0,position = position_dodge(0.9),aes(x=comuna,label=stat(count)))+
+  coord_flip()
+```
+
+#Guardando dataframe en formato .csv
+```{r}
+write.csv(fullDatos,"C:/Users/xiomy/Desktop/UTEM/BIG DATA/TrabajoGraficossssssssss/descargandoYapo/fulldatos.csv")
+
+#Ahora el archivo aparece en formato Excel en carpeta de archivos.
+
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
