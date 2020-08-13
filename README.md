@@ -102,7 +102,44 @@ obtenerTipoNegocio <- function(htmlSeg){
 ```
 Al analizar este script, podemos observar que se crea una variable llamada "subsettn", en donde guardamos la tabla de tipos de negocios no enlistada (unlist). Luego, si el largo de los elementos del subsettn es mayor a 0 (osea contiene carácteres), este retornará con los resultados, pero si los elementos del subsettn son iguales a 0 (osea que está vacío y no tiene carácteres), este retornará como **"NA"**.
 
+# Ejercicio Optativo 
 
+```r
+  fullDatos <- data.frame() 
+#se crea un dataframe vacío con el nombre de fullDatos
+  for(numeroPagina in 1:3){ 
+    readHtml <- read_html(paste("https://www.yapo.cl/region_metropolitana?ca=15_s&o=",numeroPagina,sep = ""))
+    print(paste("Descargando pagina nro:",numeroPagina))
+    nodeTabla <- html_nodes(readHtml, ".listing_thumbs")
+    nodeTabla <- html_nodes(nodeTabla, ".title")
+    linksProductos <- html_attr(nodeTabla,"href")
+#se lee el html de la pagina de yapo seleccionada y se extrae un array de elementos desde el html leido.
+#todo se guarda en la variable linksProductos
+    for (urlYapo in linksProductos) {
+      htmlSeg <- read_html(urlYapo)
+      
+      print(paste("Descargando URL ==> ",urlYapo))
+      
+      textoTipoAviso <- obtenerCategoria(htmlSeg)
+      precio <- sacandoPrecio(htmlSeg)
+      comuna <- obtenerComuna(htmlSeg)
+      tipoNegocio <- obtenerTipoNegocio(htmlSeg)
+      anioUsuarioyapo <- obtenerAnioUsuarioYapo(htmlSeg)
+      publicacionesactivasusuarioyapo <- obtenerPublicacionesActivasUsuarioYapo(htmlSeg)
+      publicacionestotalesusuarioyapo <- obtenerPublicacionesTotalesUsuarioYapo(htmlSeg)
+      
+      fullDatos <- rbind(fullDatos,data.frame(comuna = comuna, categoria = textoTipoAviso, precio = precio,
+                                              tiponegocio = tipoNegocio, aniousuarioyapo = anioUsuarioyapo,
+                                              urlyapo = urlYapo ))
+    }
+  }
+#urlYapo recorre la variable linksProductos, se crea variable htmlSeg que contiene la lectura de urlYapo
+#se crean variables "textoTipoAviso","precio","comuna","tipoNegocio","anioUsuarioyapo",
+#"publicacionesactivasusuarioyapo" y "publicacionestotalesusuarioyapo".
+#luego, se utiliza rbind para pegar los argumentos por filas en un data.frame, y asi obetenemos la tabla.
+```      
+                                             
+                                       
 
 
 
