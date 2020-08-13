@@ -24,4 +24,18 @@ En esta table, podemos observar algunas de las comunas de la Región Metropolita
 
 De esta tabla podemos tomar las siguientes conclusiones: 
 
+| Comuna | Cantidad de habitantes |
+| ------------- | ------------- |
+| Puente Alto  | 568.106  |
+| Santiago  | 404.495  |
+| Quilicura  | 210.410 |
+
+
+| Comuna | Cantidad de habitantes |
+| ------------- | ------------- |
+| Cerro Navia  | 132.662  |
+| P. Aguirre Cerda  | 101.174  |
+| Lo Espejo  | 98.804 |
+
+
 
