@@ -51,6 +51,15 @@ En la página de Yapo podemos encontrar un total de 31 categorías de venta en l
 
 En este gráfico podemos observar que la categoría en la que más productos se venden es la de Accesorios y piezas para vehículos.
 
+Entonces, podemos proponer la hipótesis de que los accesorios de vehículos son más baratos en la página de Yapo y son más caros nuevos en otros retail. 
+Para esto, vamos a sacar información nuevamente de la página de Yapo para comprar precios. 
+
+| Producto | Precio |
+| ------------- | ------------- |
+| Parachoque Suzuki sx4 scross (Yapo) | [$55.000](https://www.yapo.cl/region_metropolitana/accesorios_vehiculos/parachoque_suzuki_sx4_scross_envio_regiones_73763604.htm?ca=15_s&oa=73763604&xsp=31)  |
+| Parachoque Suzuki sx4 scross (Repuesto original) | [$75000](https://repuestosoriginales.cl/parachoque/5307-parachoque-delantero-suzuki-sx4-s-cross-08-11.html)  |
+
+Con este producto, podemos ver que la diferencia es de $20.000 por un producto usado y uno nuevo. Entonces, podríamos confirmar la hipótesis de que existen productos para vehículos en la página de Yapo que son más baratos y es por esto que más gente prefiere este sitio. 
 
 
 
