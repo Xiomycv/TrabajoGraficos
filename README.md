@@ -1,6 +1,6 @@
 # Análisis de Datos 
 
-Análisis de datos referentes a web scrapping hecho en la página de [Yapo](https://www.yapo.cl/region_metropolitana?ca=15_s&o=) en donde se obtuvieron datos sobre categorías, comunas, precios, etc...
+Análisis de datos referentes a web scrapping hecho en la página de [Yapo](https://www.yapo.cl/region_metropolitana?ca=15_s&o=) en donde se obtuvieron datos sobre categorías, comunas, precios, tipo de negocio, año del usuario Yapo y url de donde se sacó la información particular. 
 
 ## Variables que llaman la atención
 
