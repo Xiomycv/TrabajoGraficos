@@ -24,7 +24,7 @@ En esta tabla, podemos observar algunas de las comunas de la Región Metropolita
 
 De esta tabla podemos tomar las siguientes conclusiones: 
 
-####Comunas con mayor cantidad de habitantes
+#### Comunas con mayor cantidad de habitantes
 
 | Comuna | Cantidad de habitantes |
 | ------------- | ------------- |
@@ -38,6 +38,10 @@ Entonces, teniendo los datos obtenidos de la página de la [Biblioteca del Congr
 + La comuna de **Puente Alto** es la que mayor cantidad de habitantes tiene, y en ámbitos de ventas por Yapo ocupa el **7º lugar**.
 + La comuna de **Maipú** le sigue, y en ámbitos de ventas por Yapo ocupa el **3º lugar**.
 + La comuna de **Santiago** le sigue, y en ámbitos de ventas por Yapo ocupa el **1º lugar**. 
+
+Gracias a este análisis podemos llegar a la conclusión que la hipótesis planteada es correcta, ya que podemos ver que las comunas con más habitantes suelen ocupar los primeros lugares en cuanto a ventas en la página de Yapo. (de un total de 32 posiciones)
+
+### Categorías 
 
 
 
