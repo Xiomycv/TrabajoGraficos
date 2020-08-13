@@ -19,6 +19,7 @@ En este gráfico podemos observar que, la comuna en donde más se vende es la co
 Para entender de mejor manera el comportamiento de las comunas ante los numeros de venta, podemos proponer una hipótesis en la que estipulamos que a mayor cantidad de habitantes por comuna, tenemos mayor cantidad de ventas por la misma. 
 
 ![Habitantes por comuna](https://github.com/Xiomycv/TrabajoGraficos/blob/master/Tabladecomunasyhabitantes.png)
+(Fuente: Tabla elaborada a partir de datos Censo 2017)
 
 En esta tabla, podemos observar algunas de las comunas de la Región Metropolitana y las cantidades de habitantes de cada una, elaborada a partir del Censo 2017.
 
@@ -33,7 +34,7 @@ De esta tabla podemos tomar las siguientes conclusiones:
 | Santiago  | 404.495 |
 
 
-Entonces, teniendo los datos obtenidos de la página de la [Biblioteca del Congreso Nacional de Chile](https://www.bcn.cl/siit/actualidad-territorial/Censo%202017%20Comuna/), podemos comparar las comunas con mayor cantidad de habitantes con las comunas con mayores ventas en la página de Yapo. 
+Entonces, teniendo los datos obtenidos de la página [Censo 2017](http://www.censo2017.cl/descargue-aqui-resultados-de-comunas/), podemos comparar las comunas con mayor cantidad de habitantes con las comunas con mayores ventas en la página de Yapo. 
 
 + La comuna de **Puente Alto** es la que mayor cantidad de habitantes tiene, y en ámbitos de ventas por Yapo ocupa el **7º lugar**.
 + La comuna de **Maipú** le sigue, y en ámbitos de ventas por Yapo ocupa el **3º lugar**.
@@ -57,7 +58,7 @@ Para esto, vamos a sacar información nuevamente de la página de Yapo para comp
 | Producto | Precio |
 | ------------- | ------------- |
 | Parachoque Suzuki sx4 scross (Yapo) | [$55.000](https://www.yapo.cl/region_metropolitana/accesorios_vehiculos/parachoque_suzuki_sx4_scross_envio_regiones_73763604.htm?ca=15_s&oa=73763604&xsp=31)  |
-| Parachoque Suzuki sx4 scross (Repuesto original) | [$75000](https://repuestosoriginales.cl/parachoque/5307-parachoque-delantero-suzuki-sx4-s-cross-08-11.html)  |
+| Parachoque Suzuki sx4 scross (Repuesto original) | [$75.000](https://repuestosoriginales.cl/parachoque/5307-parachoque-delantero-suzuki-sx4-s-cross-08-11.html)  |
 
 Con este producto, podemos ver que la diferencia es de $20.000 por un producto usado y uno nuevo. Entonces, podríamos confirmar la hipótesis de que existen productos para vehículos en la página de Yapo que son más baratos y es por esto que más gente prefiere este sitio. 
 
