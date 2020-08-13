@@ -6,3 +6,9 @@ Análisis de datos referentes a web scrapping hecho en la página de [Yapo](http
 
 Se separaron 2 variables, las cuales llamaron mi atención.
 Estas variables son: *comunas* y *categorías* 
+
+### Comunas 
+
+En la Región Metropolitana tenemos 32 comunas, las cuales se ven representadas en el gráfico. 
+
+
