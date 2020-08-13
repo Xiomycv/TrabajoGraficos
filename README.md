@@ -64,5 +64,43 @@ Para esto, vamos a sacar información nuevamente de la página de Yapo para comp
 Con este producto, podemos ver que la diferencia es de $20.000 por un producto usado y uno nuevo. Entonces, podríamos confirmar la hipótesis de que existen productos para vehículos en la página de Yapo que son más baratos y es por esto que más gente prefiere este sitio. 
 
 
+# Valores N/A
+
+Junto a los valores encontrados en la tabla representada por el data frame obtenido en el web scrapping de la página de Yapo, encontramos valores "vacíos" o "N/A".
+Estos se representan de esta manera a partir de este código:
+
+**Precios**
+```r
+sacandoPrecio <- function(htmlSeg){
+  nodoBread <- html_nodes(htmlSeg, ".offer")
+  if(length(nodoBread)>0){
+    precio <- html_text(nodoBread)
+    precio <- gsub("\\t","",precio)
+    precio <- gsub("\\n","",precio)
+    precio <- gsub("\\$","",precio)
+    precio <- gsub("[.]","",precio)
+    precio <- as.numeric(precio)
+  }else{
+    precio = NA
+```
+Al analizar este script, podemos observar que los precios sacados de la página deben pasar por una limpieza, en la cual se le eliminan de su naturaleza carácteres como signos de peso y puntos ("$", "."). 
+Luego de que los precios hayan pasado por esta limpieza, retornan como números fáciles de recopilar, pero si uno de esos precios que pasó por este proceso no consta con ninguno de esos carácteres o el precio no está enlistado en la publicación, este retornará como **"N/A"**
+
+**Tipo de negocio**
+```r
+obtenerTipoNegocio <- function(htmlSeg){
+  nodoBread <- html_nodes(htmlSeg, ".details")
+  nodoBread <- html_nodes(nodoBread, "table")
+  tabla <- html_table(nodoBread)[[1]]
+  subsettn <- unlist(subset(tabla, X1 == 'Tipo')[2])
+  if(length(subsettn)>0){
+    return(subsettn)
+  }else{
+    return(NA)
+  }
+}
+```
+
+
 
 
