@@ -18,24 +18,27 @@ En este gráfico podemos observar que, la comuna en donde más se vende es la co
 
 Para entender de mejor manera el comportamiento de las comunas ante los numeros de venta, podemos sacar una hipótesis en la que estipulamos que a mayor cantidad de habitantes por comuna, tenemos mayor cantidad de ventas por la misma. 
 
-![Habitantes por comuna](https://siit2.bcn.cl/obtienearchivo?id=repositorio/10221/24908/3/SIIT_20180110_FMG_Tabla%20de%20crecimiento%20absoluto%202002-2017%2c%20a%20nivel%20de%20comuna_SUP113855%20%20-%20copia.jpg)
+![Habitantes por comuna](https://github.com/Xiomycv/TrabajoGraficos/blob/master/Tabladecomunasyhabitantes.png)
 
-En esta table, podemos observar algunas de las comunas de la Región Metropolitana y las cantidades de habitantes de cada una, elaborada a partir del Censo 2017, y que además indica las principales comunas que tuvieron crecimientos absolutos positivos y negativos durante los años. 
+En esta tabla, podemos observar algunas de las comunas de la Región Metropolitana y las cantidades de habitantes de cada una, elaborada a partir del Censo 2017.
 
 De esta tabla podemos tomar las siguientes conclusiones: 
+
+####Comunas con mayor cantidad de habitantes
 
 | Comuna | Cantidad de habitantes |
 | ------------- | ------------- |
 | Puente Alto  | 568.106  |
-| Santiago  | 404.495  |
-| Quilicura  | 210.410 |
+| Maipú  | 521.627  |
+| Santiago  | 404.495 |
 
 
-| Comuna | Cantidad de habitantes |
-| ------------- | ------------- |
-| Cerro Navia  | 132.662  |
-| P. Aguirre Cerda  | 101.174  |
-| Lo Espejo  | 98.804 |
+Entonces, teniendo los datos obtenidos de la página de la [Biblioteca del Congreso Nacional de Chile](https://www.bcn.cl/siit/actualidad-territorial/Censo%202017%20Comuna/), podemos comparar las comunas con mayor cantidad de habitantes con las comunas con mayores ventas en la página de Yapo. 
+
++ La comuna de **Puente Alto** es la que mayor cantidad de habitantes tiene, y en ámbitos de ventas por Yapo ocupa el **7º lugar**.
++ La comuna de **Maipú** le sigue, y en ámbitos de ventas por Yapo ocupa el **3º lugar**.
++ La comuna de **Santiago** le sigue, y en ámbitos de ventas por Yapo ocupa el **1º lugar**. 
+
 
 
 
