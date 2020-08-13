@@ -1,5 +1,8 @@
-# An&acutealisis de Datos 
+# Análisis de Datos 
 
-An&acutealisis de datos referentes a web scrapping hecho en la p&acuteagina 
-de [Yapo](https://www.yapo.cl/region_metropolitana?ca=15_s&o=) en donde se
-obtubieron datos sobre categor&acuteias, comunas, precios etc...
+Análisis de datos referentes a web scrapping hecho en la página de [Yapo](https://www.yapo.cl/region_metropolitana?ca=15_s&o=) en donde se obtubieron datos sobre categorías, comunas, precios etc...
+
+## Variables que llaman la atención
+
+Se separaron 2 variables, las cuales llamaron mi atención.
+Estas variables son: *comunas* y *categorías* 
