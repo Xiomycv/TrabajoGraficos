@@ -100,6 +100,8 @@ obtenerTipoNegocio <- function(htmlSeg){
   }
 }
 ```
+Al analizar este script, podemos observar que se crea una variable llamada "subsettn", en donde guardamos la tabla de tipos de negocios no enlistada (unlist). Luego, si el largo de los elementos del subsettn es mayor a 0 (osea contiene carácteres), este retornará con los resultados, pero si los elementos del subsettn son iguales a 0 (osea que está vacío y no tiene carácteres), este retornará como **"NA"**.
+
 
 
 
