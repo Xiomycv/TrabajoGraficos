@@ -12,4 +12,5 @@ Estas variables son: *comunas* y *categorías*
 
 En la Región Metropolitana tenemos 32 comunas, las cuales se ven representadas en el gráfico. 
 
+![Comunas](https://raw.githubusercontent.com/Xiomycv/TrabajoGraficos/master/Gráfico_categorias.png)
 
