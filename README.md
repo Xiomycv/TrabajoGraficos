@@ -1,12 +1,10 @@
 # Análisis de Datos 
 
-Análisis de datos referentes a web scrapping hecho en la página de [Yapo](https://www.yapo.cl/region_metropolitana?ca=15_s&o=) en donde se obtubieron datos sobre categorías, comunas, precios etc...
+Análisis de datos referentes a web scrapping hecho en la página de [Yapo](https://www.yapo.cl/region_metropolitana?ca=15_s&o=) en donde se obtuvieron datos sobre categorías, comunas, precios, etc...
 
 ## Variables que llaman la atención
 
-Se separaron 2 variables, las cuales llamaron mi atención.
-
-Estas variables son: *comunas* y *categorías* 
+Se separaron 2 variables, estas variables son: *comunas* y *categorías* 
 
 ### Comunas 
 
@@ -16,7 +14,7 @@ En la Región Metropolitana tenemos 32 comunas, las cuales se ven representadas 
 
 En este gráfico podemos observar que, la comuna en donde más se vende es la comuna de Santiago, siguiéndola la comuna de la Cisterna y Maipú.
 
-Para entender de mejor manera el comportamiento de las comunas ante los numeros de venta, podemos sacar una hipótesis en la que estipulamos que a mayor cantidad de habitantes por comuna, tenemos mayor cantidad de ventas por la misma. 
+Para entender de mejor manera el comportamiento de las comunas ante los numeros de venta, podemos proponer una hipótesis en la que estipulamos que a mayor cantidad de habitantes por comuna, tenemos mayor cantidad de ventas por la misma. 
 
 ![Habitantes por comuna](https://github.com/Xiomycv/TrabajoGraficos/blob/master/Tabladecomunasyhabitantes.png)
 
@@ -39,9 +37,16 @@ Entonces, teniendo los datos obtenidos de la página de la [Biblioteca del Congr
 + La comuna de **Maipú** le sigue, y en ámbitos de ventas por Yapo ocupa el **3º lugar**.
 + La comuna de **Santiago** le sigue, y en ámbitos de ventas por Yapo ocupa el **1º lugar**. 
 
-Gracias a este análisis podemos llegar a la conclusión que la hipótesis planteada es correcta, ya que podemos ver que las comunas con más habitantes suelen ocupar los primeros lugares en cuanto a ventas en la página de Yapo. (de un total de 32 posiciones)
+Gracias a este análisis podemos llegar a la conclusión que la hipótesis planteada es correcta, ya que podemos ver que las comunas con más habitantes suelen ocupar las primeras posiciones en cuanto a ventas en la página de Yapo. (de un total de 32 posiciones)
 
 ### Categorías 
+
+En la página de Yapo podemos encontrar un total de 31 categorías de venta en la Región Metropolitana. 
+
+![Categorias](https://raw.githubusercontent.com/Xiomycv/TrabajoGraficos/master/Gráfico_categorias.png)
+
+En este gráfico podemos observar que la categoría en la que más productos se venden es la de Accesorios y piezas para vehículos.
+
 
 
 
